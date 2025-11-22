@@ -122,7 +122,8 @@ export default function App() {
                       {/* Copy */}
                       <button
                         onClick={() => {
-                          navigator.clipboard.writeText(`http://localhost:5000/${l.code}`);
+                          navigator.clipboard.writeText(`https://url-uwry.onrender.com,/${l.code}`);
+
                           toast.success("Copied!");
                         }}
                         className="p-2 rounded-lg bg-[#65BFA6] text-white hover:bg-[#57a891] transition"
